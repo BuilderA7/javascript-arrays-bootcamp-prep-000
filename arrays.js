@@ -30,8 +30,13 @@ function destructivelyRemoveElementFromEndOfArray(array){
 }
 function removeElementFromEndOfArray(array){
 
+<<<<<<< HEAD
   return array.slice(0, (array.length - 1));
     
+=======
+   array.slice(0, (array.length - 1));
+  return array;   
+>>>>>>> dc110d0fc31128f7401c6b6fe24085a205684372
 }
 function destructivelyRemoveElementFromBeginningOfArray(array){
   // console.log(array.shift());
